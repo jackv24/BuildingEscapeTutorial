@@ -70,4 +70,5 @@ Intermediate/*
 DerivedDataCache/*
 
 # Ignore starter content
-Content/StarterContent/
+Content/StarterContent/Textures
+Content/StarterContent/HDRI
