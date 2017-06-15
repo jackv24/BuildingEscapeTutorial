@@ -24,8 +24,11 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
+	void Grab();
+
 	// How far ahead of the player we can reach in cm
 	float Reach = 100.0f;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	UInputComponent* InputComponent = nullptr;
 };

@@ -72,3 +72,5 @@ DerivedDataCache/*
 # Ignore starter content
 Content/StarterContent/Textures
 Content/StarterContent/HDRI
+
+*.ipch
