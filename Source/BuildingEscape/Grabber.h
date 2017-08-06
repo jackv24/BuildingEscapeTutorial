@@ -25,6 +25,16 @@ public:
 
 private:
 	void Grab();
+	void Release();
+
+	// Find attached physics handle
+	void FindPhysicsHandleComponent();
+
+	// Setup (assumed) attached input component
+	void SetupInputComponent();
+
+	// Return hit for first physics body in reach
+	const FHitResult GetFirstPhysicsBodyInReach();
 
 	// How far ahead of the player we can reach in cm
 	float Reach = 100.0f;
